@@ -1,0 +1,499 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+header{
+	width: 100%;
+	float: left;
+	background-color: #f6f9f9;
+	height: 99px;
+}
+header img{
+
+	margin: 30px 0 0 0;
+}
+.mybanner{
+	width: 100%;
+	float: left;
+	background: url(../img/banner.jpg);
+	background-size: cover;
+	
+}
+.mybanner h1{font-family: 'Lato', sans-serif;text-align: center;color: white;font-size: 120px;margin-top: 193px;}
+
+
+.dividerline {
+	display: block;
+	margin:0 auto;
+	width: 600px;
+	padding-top: 1px;
+	margin-bottom: 40px;
+	border-bottom: 2px solid #15a4fa;
+	text-align: center;
+}
+
+.mybanner h2{
+font-family: 'Lato', sans-serif;
+text-align: center;
+color: white;
+font-size: 20px;
+margin-bottom: 68px;
+
+}
+.mybutton{
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #15a4fa;
+	background-color: transparent;
+	font-size: 17px;
+	padding: 13px 43px;
+	color: white;
+}
+
+.fa.fa-angle-down{
+	display: block;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	margin-top: 150px;
+	margin-bottom: 85px;
+}
+
+
+.afterbanner{
+	width: 100%;
+	float: left;
+	background-color: #f6f9f9;
+	text-align: center;
+}
+.afterbanner h1{
+color: #2d3950;
+font-size: 40px;
+margin-top: 80px;
+margin-bottom: 30px 
+}
+
+.afterbanner p{
+color: #999999;
+font-size: 20px;
+margin-bottom: 110px;
+}
+
+.offering{
+width: 100%
+margin:0 auto;
+text-align: center;
+}
+
+.offering i{
+color: white;
+margin-top:65px;
+margin-bottom: 32px;
+background:linear-gradient(to left, #03A9F4 50%, #2196F3 49%);
+
+
+}
+
+.fa.fa-mobile{
+padding: 25px 46px;
+font-size: 58px;
+}
+.fa.fa-paper-plane{
+padding: 36px 40px;
+font-size: 36px;
+}
+.fa.fa-bullhorn{
+padding: 36px 40px;
+font-size: 36px;
+}
+
+.offering h2{
+	font-size: 22px;
+	color: #2d3950;
+
+
+
+}
+.offering p{
+	font-size: 15px;
+	color: #999999;
+	margin-bottom: 67px;
+}
+
+
+.portfolio{
+width: 100%;
+float: left;
+background-color: #f6f9f9;
+text-align: center;
+}
+
+
+.portfolio h2{
+color: #2d3950;
+font-size: 40px;
+margin-top: 80px;
+margin-bottom: 30px 
+
+}
+
+.portfolio p{
+color: #999999;
+font-size: 20px;
+margin-bottom: 90px;
+	
+}
+
+.pictures{
+	margin-top: 83px;
+	margin-bottom: 116px;
+}
+
+.uppic{
+	margin-bottom: 20px;
+}
+
+/*Portfolio + Hover Starts*/
+
+
+.image-hover{
+position: relative;
+overflow: hidden;
+}
+
+.image-hover-content{
+position: absolute;
+background-color: #2196f37d;
+width: 100%;
+height: 100%;
+
+top: 0%;
+left:100%;
+transition: 0.5s ease-in-out;
+
+}
+
+
+.image-hover-content ul{
+position: absolute;
+text-decoration: none;
+list-style: none;
+top: 40%;
+left: 32%;
+}
+.image-hover-content li{
+
+display: inline-block;
+font-size: 25px;
+
+
+}
+.image-hover-content a{
+	padding: 10px 20px;
+	font-size: 20px;
+	border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+
+.image-hover:hover
+.image-hover-content{
+	left: 0%;
+}
+
+
+
+.portfolio-gap{
+	margin-top: 30px;
+}
+
+.image-hover-content2{
+position: absolute;
+background-color: #2196f37d;
+width: 100%;
+height: 100%;
+
+top: 0%;
+
+transition: 0.3s ease;
+opacity: 0;
+}
+
+
+.image-hover-content2 ul{
+position: absolute;
+text-decoration: none;
+list-style: none;
+top: 40%;
+left: 32%;
+}
+.image-hover-content2 li{
+
+display: inline-block;
+
+
+
+}
+
+.image-hover-content2 a{
+	padding: 10px 20px;
+	font-size: 20px;
+	border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+
+.image-hover:hover
+.image-hover-content2{
+	opacity: 1;
+}
+/*Portfolio + Hover Ends*/
+
+
+
+
+.mycontainer{
+	width: 555px;
+	margin: 0 auto;
+}
+
+.contact-us{
+	width: 100%;
+	float: left;
+	background:url(../img/contactbg.jpg);
+	background-size: cover;
+	text-align: center;
+}
+
+
+.contact-us h2{
+color: white;
+font-size: 41px;
+margin-top: 80px;
+margin-bottom: 30px;
+position: relative; 
+
+}
+
+.contact-us p{
+color: #999999;
+font-size: 20px;
+margin-bottom: 55px;
+	
+}
+
+.form-cntrl1{
+background-color: transparent;
+border:1px solid #999999;
+padding:25px 465px 25px 20px;
+margin-bottom: 20px;
+}
+.form-cntrl2{
+background-color: transparent;
+border:1px solid #999999;
+padding:25px 465px 120px 20px;
+margin-bottom: 20px;
+}
+
+.Subscribe h4{
+	color: #cacbcf;
+	text-align:left;
+	font-size: 19px;
+}
+
+
+.submitsend{
+width: 4%;
+float: left;
+
+
+}
+
+.Subscribe-send{
+width: 95%;
+margin-bottom:110px; 
+display: inline-block;
+float: left;
+text-align: left;
+}
+
+.Subscribe{
+	font-size: 15px;
+	color: white;
+}
+.sendsend{
+	width: 5%;
+	float: left;
+}
+
+footer{
+	width: 100%;
+	float: left;
+	background-color: #f6f9f9;
+}
+footer p{
+	color: #999999;
+	font-size: 15px;
+	margin-top: 38px;
+	margin-bottom: 38px;
+
+}
+
+.credit{
+	width: 80%;
+	float: left;
+	text-align: left;
+}
+
+
+.socialsite{
+	width: 20%;
+	float: left;
+	margin-top: 28px;
+}
+
+.socialsite nav{
+
+}
+
+.socialsite nav ul{
+list-style: none;
+
+}
+
+.socialsite nav ul li{
+display: inline-block;
+}
+
+.socialsite nav ul li i{
+color: white;
+font-size:15px;
+padding: 13px 17px;
+background-color: #15a4fa;
+}
+
+.sendbutton{
+	margin-left: auto;
+}
+
+
+
+/*Media Querry Starts*/
+
+
+/*mobile Device*/
+@media (min-width:0px) and (max-width: 500px) {
+	
+	header img{
+	margin: 30px 150px;
+	}
+
+	.dividerline{
+		width:450px;
+	}
+
+	.credit{
+		width: 50%;
+	}
+	.socialsite{
+		width:50%;
+	}
+
+	.socialsite ul{
+
+	}
+
+	.socialsite ul li{
+	display: inline-block;	
+	}
+
+	.form-cntrl1{
+		padding:10px 150px 25px 15px;
+		
+	}
+
+	.form-cntrl2{
+		padding:10px 150px 50px 15px;
+		
+	}
+
+	.sendsend{
+		position: absolute;
+		left: 70%;
+	}
+}
+
+
+
+/*small Device*/
+@media (min-width:500.01px) and (max-width: 768px) {
+
+	.credit{
+		width: 30%;
+	}
+
+	.socialsite{
+		width: 70%
+	}
+
+.socialsite ul li{
+	display: inline-block;	
+	}
+
+		.form-cntrl1{
+		padding:10px 120px 25px 15px;
+		
+	}
+
+	.form-cntrl2{
+		padding:10px 120px 50px 15px;
+		
+	}
+
+		.sendsend{
+		position: absolute;
+		left: 60%;
+	}
+	
+}
+
+/*Medium Device*/
+@media (min-width:768.01px) and (max-width: 1140px) {
+
+	.credit{
+		width: 30%;
+	}
+
+	.socialsite{
+		width: 70%
+	}
+
+.socialsite ul li{
+	display: inline-block;	
+	}
+	
+	.sendsend{
+		position: absolute;
+		left: 60%;
+	}
+}
+	
+}
+
+/*large Device*/
+@media (min-width:1140.01px)  {
+
+	
+}
+
+/*Media Querry Ends*/
